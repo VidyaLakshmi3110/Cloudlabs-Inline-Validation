@@ -1,0 +1,48 @@
+[
+    {
+      "Name": "CloudFront",
+      "Language": "English",
+      "BaseURL": "https://github.com/VidyaLakshmi3110/Cloudlabs-Inline-Validation/tree/main",
+      "Files": [
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/VidyaLakshmi3110/Cloudlabs-Inline-Validation/main/Exercise1.md",
+          "Order": 1
+        },
+
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/VidyaLakshmi3110/Cloudlabs-Inline-Validation/main/Exercise2.md",
+          "Order": 2
+        },
+
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/VidyaLakshmi3110/Cloudlabs-Inline-Validation/main/Exercise3.md",
+          "Order": 3
+        },
+
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/VidyaLakshmi3110/Cloudlabs-Inline-Validation/main/Exercise4.md",
+          "Order": 4
+        },
+
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/VidyaLakshmi3110/Cloudlabs-Inline-Validation/main/Exercise5.md",
+          "Order": 5,
+          "UnlockingRules": [
+          {
+            "UnlockDependency": "Questions",
+            "DependentQuestions": [ 
+                "https://raw.githubusercontent.com/VidyaLakshmi3110/Cloudlabs-Inline-Validation/main/Question1.md", 
+                "https://raw.githubusercontent.com/VidyaLakshmi3110/Cloudlabs-Inline-Validation/main/Question2.md"
+            ],
+            "UnlockCriteria": "AnsweredCorrectly"
+          }
+        ]
+        },
+        {
+            "RawFilePath": "https://raw.githubusercontent.com/VidyaLakshmi3110/Cloudlabs-Inline-Validation/main/Exercise6.md",
+            "Order": 6
+        }
+
+      ]
+    }
+  ]
